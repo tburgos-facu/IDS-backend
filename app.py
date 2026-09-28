@@ -3,11 +3,11 @@ import logging
 from flask import Flask
 from flask_cors import CORS
 
-from backend_example_api.constants import BASE_URL
-from backend_example_api.routes.canchas import canchas_bp
-from backend_example_api.routes.deportes import deportes_bp
-from backend_example_api.routes.reservas import reservas_bp
-from backend_example_api.routes.socios import socios_bp
+from club_deportivo.constants import BASE_URL
+from club_deportivo.routes.canchas import canchas_bp
+from club_deportivo.routes.deportes import deportes_bp
+from club_deportivo.routes.reservas import reservas_bp
+from club_deportivo.routes.socios import socios_bp
 
 logging.basicConfig(
     level=logging.DEBUG, format="%(levelname)s - %(name)s - %(message)s"
